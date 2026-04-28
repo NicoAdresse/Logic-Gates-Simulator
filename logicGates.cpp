@@ -89,7 +89,7 @@ int main() {
             case 5: RunNANDGate(); break;
             case 6: RunNORGate(); break;
             case 7: RunXNORGate(); break;
-            case 8: return 0;
+            case 8: break;
             default: continue;
 
         }
