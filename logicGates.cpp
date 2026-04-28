@@ -74,8 +74,9 @@ void RunXNORGate() {
 }
 
 int main() {
-    while (true) {
-        std::cout << "\n1. AND\n2. OR\n3. NOT\n4. XOR" <<
+    bool IsRunning = true;
+    while (IsRunning) {
+        std::cout << "1. AND\n2. OR\n3. NOT\n4. XOR" <<
         "\n5. NAND\n6. NOR\n7. XNOR\n8. Exit\n";
 
         int choice;
@@ -89,7 +90,7 @@ int main() {
             case 5: RunNANDGate(); break;
             case 6: RunNORGate(); break;
             case 7: RunXNORGate(); break;
-            case 8: break;
+            case 8: IsRunning = false; break;
             default: continue;
 
         }
