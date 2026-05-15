@@ -1,7 +1,25 @@
 # Logic-Gates-Simulator
 A Logic Gates Simulator made by NicoAdresse
 
-# How to Install
-  1. Copy this Repo or download it directly
-  2. Run the Executable file or if you have the G++ Compiler, run this: `g++ logicGates.cpp -o logicGates` and run `./logicGates` (Linux) or `.\logicGates` (Windows).
-  3. Have Fun :)
+# Features
+  - AND, OR, NOT, XOR, NOR, NAND, XNOR gates
+  - reusability
+  - cool for small logic gates simulations
+
+# How to Install (C++)
+Step 1: Copy this Repo or download it directly
+
+Step 2: Create an executable file with this command: `g++ logic_gates_simulator.cpp -o logic_gates_simulator` and then run
+
+`./logic_gates_simulator` on macOS/Linux or `.\logic_gates_simulator` on Windows.
+
+Step 3: Have fun :)
+
+# How to Install (Rust)
+Step 1: Copy this Repo or download it directly
+
+Step 2: Create an executable file with this command: `rustc logic_gates_simulator.rs` and then run:
+
+`./logic_gates_simulator` on macOS/Linux or `.\logic_gates_simulator` on Windows.
+
+Step 3: Have fun :)
